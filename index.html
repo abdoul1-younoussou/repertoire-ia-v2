@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explorez un répertoire indépendant d’outils IA, de ressources d’apprentissage et de tutoriels.">
+  <meta name="theme-color" content="#101a35">
+  <title>Répertoire IA — Explorer et apprendre</title>
+  <link rel="icon" href="assets/images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="assets/js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#accueil" aria-label="Répertoire IA, accueil"><span class="brand-mark">IA</span><span>Répertoire<span class="brand-light">IA</span></span></a>
+      <nav id="main-nav" class="main-nav" aria-label="Navigation principale">
+        <a href="#outils">Outils</a><a href="#formations">Formations</a><a href="#tutoriels">Tutoriels</a><a href="#surveillance">Surveillance</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="language-toggle" id="language-toggle" type="button" aria-label="Passer en anglais">EN</button>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="hero" id="accueil">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Explorer · Apprendre · Créer</p>
+          <h1>L'intelligence artificielle, <span>à portée de main.</span></h1>
+          <p class="hero-lead">Un catalogue organisé d'outils IA, de ressources d’apprentissage et de tutoriels pour apprendre et passer à l'action.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#outils">Explorer les outils <span aria-hidden="true">→</span></a><a class="btn btn-quiet" href="#formations">Voir les formations</a></div>
+          <div class="hero-proof"><span class="proof-dot"></span> Ressources classées et liens suivis</div>
+        </div>
+        <div class="hero-art" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="ai-core"><span>IA</span></div><span class="float-chip chip-one">✦ Créativité</span><span class="float-chip chip-two">⌘ Productivité</span><span class="float-chip chip-three">◈ Apprentissage</span></div>
+      </div>
+    </section>
+
+    <section class="stats-strip" aria-label="Statistiques du catalogue"><div class="container stats-grid">
+      <div class="stat"><strong id="stat-tools">—</strong><span>Outils répertoriés</span></div><div class="stat"><strong id="stat-categories">—</strong><span>Catégories</span></div><div class="stat"><strong id="stat-courses">—</strong><span>Formations</span></div><div class="stat"><strong id="stat-tutorials">—</strong><span>Tutoriels</span></div>
+    </div></section>
+
+    <section class="section container" id="outils">
+      <div class="section-heading"><div><p class="eyebrow">Le catalogue</p><h2>Trouver le bon outil</h2><p class="section-description">Parcourez les ressources ou combinez les filtres pour affiner votre recherche.</p></div></div>
+      <div class="filter-panel">
+        <label class="search-box"><span class="sr-only">Rechercher un outil</span><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Rechercher par nom, usage ou description…"></label>
+        <label class="filter-control"><span>Catégorie</span><select id="category-filter"><option value="">Toutes les catégories</option></select></label>
+        <label class="filter-control"><span>Priorité</span><select id="priority-filter"><option value="">Tous les niveaux</option></select></label>
+        <button class="btn btn-reset" id="reset-filters" type="button">Réinitialiser</button>
+      </div>
+      <div class="results-line"><p id="tools-count" aria-live="polite">Chargement des outils…</p><span class="sort-note">Tri alphabétique</span></div>
+      <div id="tools-list" class="tool-groups" aria-live="polite"></div>
+    </section>
+
+    <section class="section section-soft" id="formations"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Monter en compétences</p><h2>Ressources d’apprentissage</h2><p class="section-description">Des ressources de formation séparées du catalogue d’outils.</p></div></div>
+      <div id="courses-list" class="resource-grid" aria-live="polite"></div>
+    </div></section>
+
+    <section class="section container" id="tutoriels"><div class="section-heading"><div><p class="eyebrow">Apprendre en pratique</p><h2>Tutoriels &amp; guides</h2><p class="section-description">Des contenus vidéo pour approfondir vos connaissances.</p></div></div><div id="tutorials-list" class="resource-grid" aria-live="polite"></div></section>
+
+    <section class="section section-dashboard" id="surveillance"><div class="container">
+      <div class="section-heading"><div><p class="eyebrow">Qualité des ressources</p><h2>Surveillance des liens</h2><p class="section-description">Consultez le dernier rapport généré par le vérificateur automatique.</p></div><span class="report-state" id="report-state">Rapport en attente</span></div>
+      <div class="dashboard-grid" id="dashboard-cards"><div class="dashboard-card"><span>Total vérifié</span><strong id="dash-total">—</strong></div><div class="dashboard-card"><span>Fonctionnels</span><strong id="dash-ok">—</strong></div><div class="dashboard-card"><span>Liens morts</span><strong id="dash-broken">—</strong></div><div class="dashboard-card"><span>Redirections</span><strong id="dash-redirect">—</strong></div><div class="dashboard-card"><span>Non vérifiables</span><strong id="dash-nonverifiable">—</strong></div><div class="dashboard-card"><span>Erreurs temporaires</span><strong id="dash-temporary">—</strong></div></div>
+      <div class="report-footer"><p id="report-date">Aucun rapport disponible. Lancez le vérificateur depuis votre ordinateur.</p><button class="btn btn-secondary" id="refresh-report" type="button">Actualiser le rapport</button></div>
+      <p class="dashboard-note">Le rapport est généré par GitHub Actions (exécution manuelle ou hebdomadaire). Le bouton ci-dessus recharge le dernier rapport publié ; il ne lance pas lui-même le vérificateur. Les réponses 401, 403 et 429 sont classées « non vérifiables » et ne sont pas assimilées à des liens morts. Aucun lien n'est modifié automatiquement.</p><p class="dashboard-note" data-i18n="report_run_help">Pour produire un nouveau rapport : GitHub → Actions → Vérification hebdomadaire des liens → Run workflow. Cette action nécessite que le projet soit dans un dépôt GitHub.</p><div id="report-results" aria-live="polite"></div>
+    </div></section>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><a class="brand brand-footer" href="#accueil"><span class="brand-mark">IA</span><span>Répertoire<span class="brand-light">IA</span></span></a><p>Un projet indépendant pour découvrir et apprendre l'intelligence artificielle.</p><a href="#accueil" class="back-top">Retour en haut ↑</a></div></footer>
+
+  <dialog id="tool-dialog" class="detail-dialog" aria-labelledby="dialog-title"><div class="dialog-head"><p class="eyebrow">Fiche outil</p><button class="dialog-close" id="dialog-close" aria-label="Fermer la fiche">×</button></div><div id="dialog-content"></div></dialog>
+  <p id="app-message" class="sr-only" role="status" aria-live="polite"></p>
+</body>
+</html>

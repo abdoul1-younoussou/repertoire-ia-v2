@@ -1,0 +1,13 @@
+{
+  "generated_at": null,
+  "total": 0,
+  "summary": {
+    "ok": 0,
+    "broken": 0,
+    "redirect": 0,
+    "non_verifiable": 0,
+    "temporary_error": 0,
+    "connection_error": 0
+  },
+  "results": []
+}

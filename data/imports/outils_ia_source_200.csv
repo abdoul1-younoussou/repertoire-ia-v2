@@ -1,0 +1,201 @@
+﻿N°,Outil,Catégorie,Priorité,Lien officiel,Lien d’apprentissage (à vérifier)
+1,ChatGPT,IA et rédaction,Niveau 1 — Indispensables,https://chat.openai.com,https://academy.openai.com
+2,Google Gemini,IA et rédaction,Niveau 1 — Indispensables,https://gemini.google.com,https://ai.google/education/
+3,Perplexity,IA et rédaction,Niveau 1 — Indispensables,https://www.perplexity.ai,https://www.perplexity.ai/hub
+4,Claude,IA et rédaction,Niveau 1 — Indispensables,https://claude.ai,https://support.anthropic.com
+5,Microsoft Copilot,IA et rédaction,Niveau 1 — Indispensables,https://copilot.microsoft.com,https://learn.microsoft.com/training/
+6,Canva,Design et contenu visuel,Niveau 1 — Indispensables,https://www.canva.com,https://www.canva.com/designschool/
+7,CapCut,Vidéo et audio,Niveau 1 — Indispensables,https://www.capcut.com,https://www.capcut.com/learn
+8,Google Drive,Stockage et collaboration,Niveau 1 — Indispensables,https://drive.google.com,https://support.google.com/drive
+9,Google Docs,Documents,Niveau 1 — Indispensables,https://docs.google.com,https://support.google.com/docs
+10,Google Sheets,Tableurs et données,Niveau 1 — Indispensables,https://sheets.google.com,https://support.google.com/a/users
+11,Google Slides,Présentations,Niveau 1 — Indispensables,https://slides.google.com,https://support.google.com/slides
+12,Google Calendar,Productivité,Niveau 1 — Indispensables,https://calendar.google.com,https://support.google.com/calendar
+13,Gmail,Email,Niveau 1 — Indispensables,https://mail.google.com,https://support.google.com/mail
+14,Google Meet,Réunions,Niveau 1 — Indispensables,https://meet.google.com,https://support.google.com/meet
+15,Notion,Productivité,Niveau 1 — Indispensables,https://www.notion.com,https://www.notion.com/academy
+16,Todoist,Productivité,Niveau 1 — Indispensables,https://todoist.com,https://todoist.com/help
+17,Trello,Gestion de projet,Niveau 1 — Indispensables,https://trello.com,https://trello.com/guide
+18,Slack,Collaboration,Niveau 1 — Indispensables,https://slack.com,https://slack.com/help
+19,Zoom,Réunions,Niveau 1 — Indispensables,https://zoom.us,https://learn.zoom.us
+20,Loom,Vidéo et communication,Niveau 1 — Indispensables,https://www.loom.com,https://www.loom.com/help
+21,Figma,Design,Niveau 1 — Indispensables,https://www.figma.com,https://help.figma.com
+22,WordPress,Site web,Niveau 1 — Indispensables,https://wordpress.org,https://learn.wordpress.org
+23,Wix,Site web,Niveau 1 — Indispensables,https://www.wix.com,https://www.wix.com/learn
+24,Shopify,E-commerce,Niveau 1 — Indispensables,https://www.shopify.com,https://www.shopify.com/learn
+25,Google Search Console,SEO,Niveau 1 — Indispensables,https://search.google.com/search-console,https://developers.google.com/search
+26,Google Analytics,Analytics,Niveau 1 — Indispensables,https://analytics.google.com,https://analytics.google.com/analytics/academy/
+27,Google Trends,SEO et recherche,Niveau 1 — Indispensables,https://trends.google.com,https://support.google.com/trends
+28,Mailchimp,Emailing,Niveau 1 — Indispensables,https://mailchimp.com,https://academy.mailchimp.com
+29,Buffer,Réseaux sociaux,Niveau 1 — Indispensables,https://buffer.com,https://buffer.com/resources
+30,Meta Business Suite,Réseaux sociaux,Niveau 1 — Indispensables,https://business.facebook.com,https://www.facebook.com/business/learn
+31,YouTube Studio,Vidéo,Niveau 1 — Indispensables,https://studio.youtube.com,https://creatoracademy.youtube.com
+32,LinkedIn,Réseaux sociaux,Niveau 1 — Indispensables,https://www.linkedin.com,https://business.linkedin.com/marketing
+33,HubSpot CRM,CRM et vente,Niveau 1 — Indispensables,https://www.hubspot.com/products/crm,https://academy.hubspot.com
+34,Stripe,Paiement,Niveau 1 — Indispensables,https://stripe.com,https://stripe.com/docs
+35,PayPal,Paiement,Niveau 1 — Indispensables,https://www.paypal.com,https://developer.paypal.com
+36,Zapier,Automatisation,Niveau 1 — Indispensables,https://zapier.com,https://zapier.com/learn
+37,Make,Automatisation,Niveau 1 — Indispensables,https://www.make.com,https://www.make.com/en/academy
+38,Bitwarden,Sécurité,Niveau 1 — Indispensables,https://bitwarden.com,https://bitwarden.com/help/
+39,VirusTotal,Sécurité,Niveau 1 — Indispensables,https://www.virustotal.com,https://docs.virustotal.com
+40,Smallpdf,PDF,Niveau 1 — Indispensables,https://smallpdf.com,https://smallpdf.com/help
+41,NotebookLM,IA et recherche,Niveau 2 — Très utiles,https://notebooklm.google.com,https://support.google.com/notebooklm
+42,Grammarly,Rédaction,Niveau 2 — Très utiles,https://www.grammarly.com,https://www.grammarly.com/blog
+43,LanguageTool,Rédaction,Niveau 2 — Très utiles,https://languagetool.org,https://languagetool.org/support
+44,DeepL,Traduction,Niveau 2 — Très utiles,https://www.deepl.com,https://support.deepl.com
+45,QuillBot,Rédaction,Niveau 2 — Très utiles,https://quillbot.com,https://quillbot.com/blog
+46,Copy.ai,IA rédaction,Niveau 2 — Très utiles,https://www.copy.ai,https://www.copy.ai/blog
+47,Jasper,IA rédaction,Niveau 2 — Très utiles,https://www.jasper.ai,https://www.jasper.ai/academy
+48,Writesonic,IA rédaction,Niveau 2 — Très utiles,https://writesonic.com,https://writesonic.com/blog
+49,Rytr,IA rédaction,Niveau 2 — Très utiles,https://rytr.me,https://rytr.me/blog
+50,Adobe Express,Design,Niveau 2 — Très utiles,https://www.adobe.com/express/,https://www.adobe.com/express/learn
+51,Adobe Firefly,IA images,Niveau 2 — Très utiles,https://firefly.adobe.com,https://helpx.adobe.com/firefly
+52,Adobe Acrobat,PDF,Niveau 2 — Très utiles,https://www.adobe.com/acrobat.html,https://helpx.adobe.com/acrobat.html
+53,Framer,Site web et design,Niveau 2 — Très utiles,https://www.framer.com,https://www.framer.com/academy/
+54,Webflow,Site web,Niveau 2 — Très utiles,https://webflow.com,https://university.webflow.com
+55,Squarespace,Site web,Niveau 2 — Très utiles,https://www.squarespace.com,https://www.squarespace.com/learning
+56,Carrd,Site web,Niveau 2 — Très utiles,https://carrd.co,https://carrd.co/docs
+57,Descript,Vidéo et audio,Niveau 2 — Très utiles,https://www.descript.com,https://www.descript.com/learn
+58,Runway,IA vidéo,Niveau 2 — Très utiles,https://runwayml.com,https://runwayml.com/academy
+59,Pika,IA vidéo,Niveau 2 — Très utiles,https://pika.art,https://pika.art
+60,Luma Dream Machine,IA vidéo,Niveau 2 — Très utiles,https://lumalabs.ai/dream-machine,https://lumalabs.ai
+61,Leonardo AI,IA images,Niveau 2 — Très utiles,https://leonardo.ai,https://leonardo.ai/learn
+62,Ideogram,IA images,Niveau 2 — Très utiles,https://ideogram.ai,https://ideogram.ai
+63,Midjourney,IA images,Niveau 2 — Très utiles,https://www.midjourney.com,https://docs.midjourney.com
+64,ElevenLabs,IA audio,Niveau 2 — Très utiles,https://elevenlabs.io,https://elevenlabs.io/docs
+65,Murf AI,IA audio,Niveau 2 — Très utiles,https://murf.ai,https://murf.ai/resources
+66,Suno,IA musique,Niveau 2 — Très utiles,https://suno.com,https://suno.com
+67,Obsidian,Notes,Niveau 2 — Très utiles,https://obsidian.md,https://help.obsidian.md
+68,TickTick,Productivité,Niveau 2 — Très utiles,https://ticktick.com,https://support.ticktick.com
+69,Microsoft To Do,Productivité,Niveau 2 — Très utiles,https://to-do.office.com,https://support.microsoft.com
+70,Calendly,Rendez-vous,Niveau 2 — Très utiles,https://calendly.com,https://help.calendly.com
+71,Cal.com,Rendez-vous,Niveau 2 — Très utiles,https://cal.com,https://cal.com/docs
+72,Toggl Track,Suivi du temps,Niveau 2 — Très utiles,https://toggl.com/track,https://toggl.com/track/guides
+73,Clockify,Suivi du temps,Niveau 2 — Très utiles,https://clockify.me,https://clockify.me/help
+74,Miro,Tableau blanc,Niveau 2 — Très utiles,https://miro.com,https://miro.com/miroverse/
+75,FigJam,Tableau blanc,Niveau 2 — Très utiles,https://www.figma.com/figjam/,https://help.figma.com
+76,MindMeister,Cartes mentales,Niveau 2 — Très utiles,https://www.mindmeister.com,https://www.mindmeister.com/help
+77,XMind,Cartes mentales,Niveau 2 — Très utiles,https://xmind.app,https://xmind.app/help
+78,Evernote,Notes,Niveau 2 — Très utiles,https://evernote.com,https://help.evernote.com
+79,Asana,Gestion de projet,Niveau 2 — Très utiles,https://asana.com,https://academy.asana.com
+80,ClickUp,Gestion de projet,Niveau 2 — Très utiles,https://clickup.com,https://clickup.com/learn
+81,Monday.com,Gestion de projet,Niveau 2 — Très utiles,https://monday.com,https://monday.com/w/academy
+82,Jira,Gestion de projet,Niveau 2 — Très utiles,https://www.atlassian.com/software/jira,https://www.atlassian.com/university
+83,Linear,Gestion de projet,Niveau 2 — Très utiles,https://linear.app,https://linear.app/docs
+84,Basecamp,Gestion de projet,Niveau 2 — Très utiles,https://basecamp.com,https://basecamp.com/learn
+85,Airtable,Base de données,Niveau 2 — Très utiles,https://airtable.com,https://www.airtable.com/academy
+86,Smartsheet,Gestion de projet,Niveau 2 — Très utiles,https://www.smartsheet.com,https://www.smartsheet.com/learn
+87,Wrike,Gestion de projet,Niveau 2 — Très utiles,https://www.wrike.com,https://www.wrike.com/videogallery
+88,Teamwork,Gestion de projet,Niveau 2 — Très utiles,https://www.teamwork.com,https://www.teamwork.com/support
+89,Microsoft Teams,Collaboration,Niveau 2 — Très utiles,https://www.microsoft.com/microsoft-teams,https://learn.microsoft.com/training/
+90,Google Chat,Collaboration,Niveau 2 — Très utiles,https://chat.google.com,https://support.google.com/chat
+91,Discord,Collaboration,Niveau 2 — Très utiles,https://discord.com,https://support.discord.com
+92,Mural,Tableau blanc,Niveau 2 — Très utiles,https://www.mural.co,https://www.mural.co/getting-started
+93,Microsoft Word,Documents,Niveau 2 — Très utiles,https://www.microsoft.com/microsoft-365/word,https://learn.microsoft.com/training/
+94,Microsoft Excel,Tableurs,Niveau 2 — Très utiles,https://www.microsoft.com/microsoft-365/excel,https://learn.microsoft.com/training/
+95,Microsoft PowerPoint,Présentations,Niveau 2 — Très utiles,https://www.microsoft.com/microsoft-365/powerpoint,https://learn.microsoft.com/training/
+96,LibreOffice,Bureautique,Niveau 2 — Très utiles,https://www.libreoffice.org,https://documentation.libreoffice.org
+97,OnlyOffice,Bureautique,Niveau 2 — Très utiles,https://www.onlyoffice.com,https://helpcenter.onlyoffice.com
+98,Baserow,Base de données,Niveau 2 — Très utiles,https://baserow.io,https://baserow.io/docs
+99,NocoDB,Base de données,Niveau 2 — Très utiles,https://nocodb.com,https://docs.nocodb.com
+100,Supabase,Base de données,Niveau 2 — Très utiles,https://supabase.com,https://supabase.com/docs
+101,Google Looker Studio,Data visualization,Niveau 2 — Très utiles,https://lookerstudio.google.com,https://support.google.com/looker-studio
+102,Power BI,Data visualization,Niveau 2 — Très utiles,https://powerbi.microsoft.com,https://learn.microsoft.com/training/powerplatform/power-bi
+103,Tableau Public,Data visualization,Niveau 2 — Très utiles,https://public.tableau.com,https://www.tableau.com/learn/training
+104,Metabase,Data visualization,Niveau 2 — Très utiles,https://www.metabase.com,https://www.metabase.com/learn/
+105,Flourish,Data visualization,Niveau 2 — Très utiles,https://flourish.studio,https://help.flourish.studio
+106,Datawrapper,Data visualization,Niveau 2 — Très utiles,https://www.datawrapper.de,https://academy.datawrapper.de
+107,Jupyter Notebook,Analyse de données,Niveau 2 — Très utiles,https://jupyter.org,https://jupyter.org/try-jupyter
+108,GitHub,Développement,Niveau 2 — Très utiles,https://github.com,https://skills.github.com
+109,GitLab,Développement,Niveau 2 — Très utiles,https://about.gitlab.com,https://about.gitlab.com/topics/git-tutorial/
+110,VS Code,Développement,Niveau 2 — Très utiles,https://code.visualstudio.com,https://code.visualstudio.com/docs
+111,Replit,Développement,Niveau 2 — Très utiles,https://replit.com,https://docs.replit.com
+112,CodeSandbox,Développement,Niveau 2 — Très utiles,https://codesandbox.io,https://codesandbox.io/docs
+113,StackBlitz,Développement,Niveau 2 — Très utiles,https://stackblitz.com,https://developer.stackblitz.com
+114,Vercel,Hébergement web,Niveau 2 — Très utiles,https://vercel.com,https://vercel.com/docs
+115,Netlify,Hébergement web,Niveau 2 — Très utiles,https://www.netlify.com,https://docs.netlify.com
+116,Ahrefs,SEO,Niveau 2 — Très utiles,https://ahrefs.com,https://ahrefs.com/academy
+117,Semrush,SEO,Niveau 2 — Très utiles,https://www.semrush.com,https://www.semrush.com/academy/
+118,Moz,SEO,Niveau 2 — Très utiles,https://moz.com,https://academy.moz.com
+119,Ubersuggest,SEO,Niveau 2 — Très utiles,https://neilpatel.com/ubersuggest/,https://neilpatel.com/training/
+120,Screaming Frog,SEO technique,Niveau 2 — Très utiles,https://www.screamingfrog.co.uk/seo-spider/,https://www.screamingfrog.co.uk/seo-spider/user-guide/
+121,Yoast SEO,SEO WordPress,Niveau 3 — Spécialisés,https://yoast.com,https://yoast.com/academy/
+122,Rank Math,SEO WordPress,Niveau 3 — Spécialisés,https://rankmath.com,https://rankmath.com/kb/
+123,AnswerThePublic,Recherche de mots-clés,Niveau 3 — Spécialisés,https://answerthepublic.com,https://answerthepublic.com/blog
+124,AlsoAsked,Recherche de mots-clés,Niveau 3 — Spécialisés,https://alsoasked.com,https://alsoasked.com
+125,Keyword Tool,Recherche de mots-clés,Niveau 3 — Spécialisés,https://keywordtool.io,https://keywordtool.io
+126,Google PageSpeed Insights,Performance web,Niveau 3 — Spécialisés,https://pagespeed.web.dev,https://developers.google.com/speed/docs/insights
+127,GTmetrix,Performance web,Niveau 3 — Spécialisés,https://gtmetrix.com,https://gtmetrix.com/blog
+128,Hotjar,Analyse utilisateur,Niveau 3 — Spécialisés,https://www.hotjar.com,https://www.hotjar.com/blog
+129,Microsoft Clarity,Analyse utilisateur,Niveau 3 — Spécialisés,https://clarity.microsoft.com,https://learn.microsoft.com/clarity
+130,Similarweb,Analyse concurrentielle,Niveau 3 — Spécialisés,https://www.similarweb.com,https://www.similarweb.com/corp/academy/
+131,Bing Webmaster Tools,SEO,Niveau 3 — Spécialisés,https://www.bing.com/webmasters,https://www.bing.com/webmasters/help
+132,Google Keyword Planner,Publicité,Niveau 3 — Spécialisés,https://ads.google.com/home/tools/keyword-planner/,https://skillshop.withgoogle.com
+133,Google Ads,Publicité,Niveau 3 — Spécialisés,https://ads.google.com,https://skillshop.withgoogle.com
+134,Meta Ads Manager,Publicité,Niveau 3 — Spécialisés,https://www.facebook.com/adsmanager,https://www.facebook.com/business/learn
+135,TikTok Ads Manager,Publicité,Niveau 3 — Spécialisés,https://ads.tiktok.com,https://ads.tiktok.com/help
+136,TikTok Creator Center,Réseaux sociaux,Niveau 3 — Spécialisés,https://www.tiktok.com/creators/creator-portal/,https://www.tiktok.com/creators/creator-portal/
+137,X,Réseaux sociaux,Niveau 3 — Spécialisés,https://x.com,https://help.x.com
+138,Pinterest Business,Réseaux sociaux,Niveau 3 — Spécialisés,https://business.pinterest.com,https://business.pinterest.com/creator/
+139,Hootsuite,Réseaux sociaux,Niveau 3 — Spécialisés,https://www.hootsuite.com,https://www.hootsuite.com/academy
+140,Later,Réseaux sociaux,Niveau 3 — Spécialisés,https://later.com,https://later.com/blog
+141,Metricool,Réseaux sociaux,Niveau 3 — Spécialisés,https://metricool.com,https://metricool.com/academy/
+142,Publer,Réseaux sociaux,Niveau 3 — Spécialisés,https://publer.io,https://publer.io/blog
+143,Brevo,Emailing,Niveau 3 — Spécialisés,https://www.brevo.com,https://www.brevo.com/academy/
+144,MailerLite,Emailing,Niveau 3 — Spécialisés,https://www.mailerlite.com,https://www.mailerlite.com/academy
+145,ConvertKit,Emailing,Niveau 3 — Spécialisés,https://kit.com,https://kit.com/creator-network
+146,Beehiiv,Newsletter,Niveau 3 — Spécialisés,https://www.beehiiv.com,https://www.beehiiv.com/blog
+147,Pipedrive,CRM,Niveau 3 — Spécialisés,https://www.pipedrive.com,https://www.pipedrive.com/en/academy
+148,Salesforce,CRM,Niveau 3 — Spécialisés,https://www.salesforce.com,https://trailhead.salesforce.com
+149,Zoho CRM,CRM,Niveau 3 — Spécialisés,https://www.zoho.com/crm/,https://www.zoho.com/crm/academy/
+150,Freshsales,CRM,Niveau 3 — Spécialisés,https://www.freshworks.com/crm/,https://www.freshworks.com/crm/academy/
+151,WooCommerce,E-commerce,Niveau 3 — Spécialisés,https://woocommerce.com,https://woocommerce.com/documentation/
+152,PrestaShop,E-commerce,Niveau 3 — Spécialisés,https://www.prestashop.com,https://devdocs.prestashop.com
+153,Gumroad,Vente de produits numériques,Niveau 3 — Spécialisés,https://gumroad.com,https://help.gumroad.com
+154,Payhip,Vente de produits numériques,Niveau 3 — Spécialisés,https://payhip.com,https://payhip.com/faq
+155,Lemon Squeezy,Vente de produits numériques,Niveau 3 — Spécialisés,https://www.lemonsqueezy.com,https://docs.lemonsqueezy.com
+156,Square,Paiement,Niveau 3 — Spécialisés,https://squareup.com,https://squareup.com/us/en/business-growth
+157,Wave,Comptabilité,Niveau 3 — Spécialisés,https://www.waveapps.com,https://support.waveapps.com
+158,QuickBooks,Comptabilité,Niveau 3 — Spécialisés,https://quickbooks.intuit.com,https://quickbooks.intuit.com/learn/
+159,Xero,Comptabilité,Niveau 3 — Spécialisés,https://www.xero.com,https://www.xero.com/learning/
+160,FreshBooks,Facturation,Niveau 3 — Spécialisés,https://www.freshbooks.com,https://www.freshbooks.com/hub
+161,Invoice Ninja,Facturation,Niveau 3 — Spécialisés,https://www.invoiceninja.com,https://www.invoiceninja.com/docs/
+162,Wise Business,Finance,Niveau 3 — Spécialisés,https://wise.com,https://wise.com/help
+163,n8n,Automatisation,Niveau 3 — Spécialisés,https://n8n.io,https://docs.n8n.io
+164,IFTTT,Automatisation,Niveau 3 — Spécialisés,https://ifttt.com,https://help.ifttt.com
+165,Pabbly Connect,Automatisation,Niveau 3 — Spécialisés,https://www.pabbly.com/connect/,https://www.pabbly.com/connect/tutorials/
+166,Softr,No-code,Niveau 3 — Spécialisés,https://www.softr.io,https://www.softr.io/academy
+167,Glide,No-code,Niveau 3 — Spécialisés,https://www.glideapps.com,https://www.glideapps.com/docs
+168,Bubble,No-code,Niveau 3 — Spécialisés,https://bubble.io,https://bubble.io/academy
+169,FlutterFlow,No-code,Niveau 3 — Spécialisés,https://flutterflow.io,https://docs.flutterflow.io
+170,Adalo,No-code,Niveau 3 — Spécialisés,https://www.adalo.com,https://help.adalo.com
+171,Scalenut,SEO et contenu,Niveau 3 — Spécialisés,https://www.scalenut.com,https://www.scalenut.com/blogs
+172,Frase,SEO et contenu,Niveau 3 — Spécialisés,https://www.frase.io,https://www.frase.io/blog
+173,Surfer SEO,SEO et contenu,Niveau 3 — Spécialisés,https://surferseo.com,https://surferseo.com/academy
+174,NeuronWriter,SEO et contenu,Niveau 3 — Spécialisés,https://neuronwriter.com,https://neuronwriter.com/blog
+175,Anyword,IA rédaction,Niveau 3 — Spécialisés,https://anyword.com,https://anyword.com/blog
+176,HyperWrite,IA rédaction,Niveau 3 — Spécialisés,https://www.hyperwriteai.com,https://www.hyperwriteai.com/blog
+177,Play.ht,IA audio,Niveau 3 — Spécialisés,https://play.ht,https://docs.play.ht
+178,Udio,IA musique,Niveau 3 — Spécialisés,https://www.udio.com,https://www.udio.com
+179,Stable Diffusion,IA images,Niveau 3 — Spécialisés,https://stability.ai,https://github.com/Stability-AI
+180,Kling AI,IA vidéo,Niveau 3 — Spécialisés,https://klingai.com,https://klingai.com
+181,Milanote,Organisation créative,Niveau 3 — Spécialisés,https://milanote.com,https://milanote.com/guide
+182,Forest,Productivité,Niveau 3 — Spécialisés,https://www.forestapp.cc,https://www.forestapp.cc
+183,Focus To-Do,Productivité,Niveau 3 — Spécialisés,https://www.focustodo.cn,https://www.focustodo.cn
+184,RescueTime,Suivi du temps,Niveau 3 — Spécialisés,https://www.rescuetime.com,https://www.rescuetime.com/blog
+185,Zoho Sheet,Tableurs,Niveau 3 — Spécialisés,https://www.zoho.com/sheet/,https://www.zoho.com/sheet/help/
+186,Height,Gestion de projet,Niveau 3 — Spécialisés,https://height.app,https://height.app/help
+187,Google Tasks,Productivité,Niveau 3 — Spécialisés,https://tasks.google.com,https://support.google.com/tasks
+188,1Password,Sécurité,Niveau 3 — Spécialisés,https://1password.com,https://support.1password.com
+189,Proton Pass,Sécurité,Niveau 3 — Spécialisés,https://proton.me/pass,https://proton.me/support
+190,Google Authenticator,Sécurité,Niveau 3 — Spécialisés,https://support.google.com/accounts,https://support.google.com/accounts
+191,Authy,Sécurité,Niveau 3 — Spécialisés,https://authy.com,https://authy.com/help
+192,Cloudflare,Sécurité web,Niveau 3 — Spécialisés,https://www.cloudflare.com,https://developers.cloudflare.com/learning-paths/
+193,Let's Encrypt,Certificats SSL,Niveau 3 — Spécialisés,https://letsencrypt.org,https://letsencrypt.org/docs/
+194,Have I Been Pwned,Sécurité,Niveau 3 — Spécialisés,https://haveibeenpwned.com,https://haveibeenpwned.com/FAQs
+195,iLovePDF,PDF,Niveau 3 — Spécialisés,https://www.ilovepdf.com,https://www.ilovepdf.com/help
+196,WeTransfer,Transfert de fichiers,Niveau 3 — Spécialisés,https://wetransfer.com,https://wetransfer.com/help
+197,Dropbox,Stockage,Niveau 3 — Spécialisés,https://www.dropbox.com,https://help.dropbox.com
+198,HubSpot Free Tools,Marketing et CRM,Niveau 3 — Spécialisés,https://www.hubspot.com,https://academy.hubspot.com/courses/hubspot-free-tools
+199,Canva AI,Design IA,Niveau 3 — Spécialisés,https://www.canva.com,https://www.canva.com/designschool/
+200,Google Skillshop,Formation Google,Niveau 3 — Spécialisés,https://skillshop.withgoogle.com,https://skillshop.withgoogle.com
