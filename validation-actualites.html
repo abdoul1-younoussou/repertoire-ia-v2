@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="fr"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Validation des actualités IA</title>
+<style>
+body{font:16px system-ui;margin:20px;background:#f4f6f8;color:#202733}main{max-width:900px;margin:auto}
+section,article{background:white;border:1px solid #ddd;border-radius:12px;padding:16px;margin:12px 0}
+button,input,select{font:inherit;padding:9px;margin:5px;border:1px solid #bbb;border-radius:7px}
+button{cursor:pointer}.ok{background:#176b45;color:white}.bad{color:#a22}.muted{color:#667}
+article h3{margin:0 0 8px}.meta{color:#667;font-size:.9em}.notice{background:#fff5dc;padding:12px}
+</style><main>
+<h1>Validation des actualités IA</h1>
+<p class="notice"><b>Confidentialité :</b> cette page fonctionne localement. Aucun envoi vers un serveur et aucune publication automatique.</p>
+<section><h2>1. Charger les fichiers JSON</h2>
+<p class="muted">Téléchargez news_pending.json et news.json depuis le dossier data de votre dépôt.</p>
+<label>En attente <input id="pfile" type="file" accept=".json"></label>
+<label>Publiées <input id="ufile" type="file" accept=".json"></label><p id="status">Aucun fichier chargé.</p></section>
+<section><h2>2. Examiner</h2><p id="stats"></p>
+<select id="filter"><option value="pending">À examiner</option><option value="rejected">Rejetées</option><option value="all">Toutes</option></select>
+<input id="search" placeholder="Rechercher">
+</section><div id="list">Chargez les deux fichiers pour commencer.</div>
+<section><h2>3. Exporter</h2><button id="dp" disabled>Télécharger news_pending.json</button>
+<button id="du" disabled>Télécharger news.json</button>
+<p class="muted">Vérifiez les fichiers exportés avant de les remettre dans GitHub.</p></section>
+<script>
+let pending=null,published=null;const $=x=>document.getElementById(x);
+async function load(k,f){if(!f)return;try{const a=JSON.parse(await f.text());if(!Array.isArray(a))throw Error("Le JSON doit être un tableau.");if(k==="p")pending=a;else published=a;
+if(pending&&published){$("status").textContent="Chargement terminé."; $("dp").disabled=$("du").disabled=false;render()}else $("status").textContent="Sélectionnez également l'autre fichier.";
+}catch(e){$("status").textContent="Erreur : "+e.message}}
+$("pfile").onchange=e=>load("p",e.target.files[0]);$("ufile").onchange=e=>load("u",e.target.files[0]);
+$("filter").onchange=render;$("search").oninput=render;
+function render(){if(!pending||!published)return;let n=pending.filter(x=>(x.review_status||"pending")==="pending").length,r=pending.filter(x=>x.review_status==="rejected").length;
+$("stats").textContent=`À examiner : ${n} | Rejetées : ${r} | Publiées : ${published.length}`;
+let mode=$("filter").value,q=$("search").value.toLowerCase();let arr=pending.filter(x=>{let s=x.review_status||"pending";return(mode==="all"||(mode==="pending"&&s==="pending")||(mode==="rejected"&&s==="rejected"))&&((x.title||"")+" "+(x.source_name||"")).toLowerCase().includes(q)});
+$("list").innerHTML="";if(!arr.length){$("list").textContent="Aucune proposition dans cette vue.";return}
+arr.forEach(x=>{let a=document.createElement("article"),h=document.createElement("h3"),m=document.createElement("p"),s=document.createElement("p");h.textContent=x.title||"Sans titre";m.className="meta";m.textContent=[x.source_name,x.published_at,x.language].filter(Boolean).join(" · ");s.textContent=x.summary||"Résumé absent : lire l'article original.";
+a.append(h,m,s);try{let u=new URL(x.article_url);if(["http:","https:"].includes(u.protocol)){let link=document.createElement("a");link.href=u.href;link.target="_blank";link.rel="noopener noreferrer";link.textContent="Consulter l'article original";a.append(link)}}catch{}
+let info=document.createElement("p");info.className="meta";info.textContent="Classement automatique : "+(x.editorial_status||"non défini")+" — validation humaine requise.";a.append(info);
+let b=document.createElement("button");b.className="ok";b.textContent="Approuver et publier";b.disabled=(x.review_status||"pending")!=="pending";b.onclick=()=>{if(!confirm("Confirmer après vérification de la source ?"))return;if(published.some(y=>y.id===x.id)){alert("Déjà publié.");return}published.unshift({...x,review_status:"published",reviewed_at:new Date().toISOString()});pending=pending.filter(y=>y.id!==x.id);render()};
+let c=document.createElement("button");c.className="bad";c.textContent="Rejeter";c.disabled=x.review_status==="rejected";c.onclick=()=>{if(confirm("Confirmer le rejet ?")){x.review_status="rejected";x.reviewed_at=new Date().toISOString();render()}};a.append(b,c);$("list").append(a)})}
+function save(name,data){let u=URL.createObjectURL(new Blob([JSON.stringify(data,null,2)+"\n"],{type:"application/json"})),a=document.createElement("a");a.href=u;a.download=name;a.click();URL.revokeObjectURL(u)}
+$("dp").onclick=()=>save("news_pending.json",pending);$("du").onclick=()=>save("news.json",published);
+</script></main></html>
