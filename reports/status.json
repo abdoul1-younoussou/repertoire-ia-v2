@@ -1,12 +1,12 @@
 {
-  "generated_at": "2026-11-26T21:08:26.572288+00:00",
+  "generated_at": "2026-11-26T21:28:32.690359+00:00",
   "total": 407,
   "summary": {
     "ok": 65,
     "redirect": 276,
-    "broken": 27,
+    "broken": 26,
     "non_verifiable": 35,
-    "temporary_error": 0,
+    "temporary_error": 1,
     "connection_error": 4,
     "invalid_url": 0
   },
@@ -180,7 +180,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://drive.google.com/&emr=1&followup=https://drive.google.com/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1372489053:1795727261143041",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://drive.google.com/&emr=1&followup=https://drive.google.com/&osid=1&passive=1209600&service=wise&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1731748132:1795728467172539",
       "attempts": [
         {
           "attempt": 1,
@@ -202,7 +202,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1372489053:1795727261162997",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://docs.google.com/&emr=1&followup=https://docs.google.com/&osid=1&passive=1209600&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1932007424:1795728467172275",
       "attempts": [
         {
           "attempt": 1,
@@ -268,7 +268,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/u/0/r&emr=1&followup=https://calendar.google.com/calendar/u/0/r&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1309408090:1795727261269011",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://calendar.google.com/calendar/u/0/r&emr=1&followup=https://calendar.google.com/calendar/u/0/r&osid=1&passive=1209600&service=cl&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S51015080:1795728467345492",
       "attempts": [
         {
           "attempt": 1,
@@ -290,7 +290,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://mail.google.com/mail/u/0/&emr=1&followup=https://mail.google.com/mail/u/0/&osid=1&passive=1209600&service=mail&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1926963223:1795727261296740",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://mail.google.com/mail/u/0/&emr=1&followup=https://mail.google.com/mail/u/0/&osid=1&passive=1209600&service=mail&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1932007424:1795728467401151",
       "attempts": [
         {
           "attempt": 1,
@@ -686,7 +686,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fstudio.youtube.com%252F%26feature%3Dredirect_login&hl=en&passive=true&service=youtube&uilel=3&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-1724407551:1795727261682379",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://www.youtube.com/signin?action_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Den%26next%3Dhttps%253A%252F%252Fstudio.youtube.com%252F%26feature%3Dredirect_login&hl=en&passive=true&service=youtube&uilel=3&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S1932007424:1795728467853047",
       "attempts": [
         {
           "attempt": 1,
@@ -1984,7 +1984,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://chat.google.com/&emr=1&osid=1&passive=1209600&service=dynamite&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-719512761:1795727263017510",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://chat.google.com/&emr=1&osid=1&passive=1209600&service=dynamite&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-585161345:1795728469327392",
       "attempts": [
         {
           "attempt": 1,
@@ -4142,7 +4142,7 @@
       "source_file": "tools.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://tasks.google.com/&emr=1&followup=https://tasks.google.com/&passive=1209600&service=tasks&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-350224817:1795727266680028",
+      "final_url": "https://accounts.google.com/v3/signin/identifier?continue=https://tasks.google.com/&emr=1&followup=https://tasks.google.com/&passive=1209600&service=tasks&flowName=WebLiteSignIn&flowEntry=ServiceLogin&dsh=S-2079725402:1795728472631979",
       "attempts": [
         {
           "attempt": 1,
@@ -4580,14 +4580,26 @@
       "priority": "Niveau 1 — Indispensables",
       "url": "https://www.capcut.com/learn",
       "source_file": "formations.json",
-      "status": "broken",
-      "http_status": 404,
+      "status": "temporary_error",
+      "http_status": 502,
       "final_url": "https://www.capcut.com/learn",
       "attempts": [
         {
           "attempt": 1,
-          "http_status": 404,
-          "classification": "broken",
+          "http_status": 502,
+          "classification": "temporary_error",
+          "redirected": false
+        },
+        {
+          "attempt": 2,
+          "http_status": 502,
+          "classification": "temporary_error",
+          "redirected": false
+        },
+        {
+          "attempt": 3,
+          "http_status": 502,
+          "classification": "temporary_error",
           "redirected": false
         }
       ],
@@ -5050,19 +5062,19 @@
           "attempt": 1,
           "http_status": null,
           "classification": "connection_error",
-          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x71950ecfae50>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
+          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x74e997b0a950>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
         },
         {
           "attempt": 2,
           "http_status": null,
           "classification": "connection_error",
-          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x71950ecf88d0>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
+          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x74e997b22090>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
         },
         {
           "attempt": 3,
           "http_status": null,
           "classification": "connection_error",
-          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x71950ecf9690>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
+          "error": "HTTPSConnectionPool(host='academy.mailchimp.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='academy.mailchimp.com', port=443) at 0x74e997994490>, 'Connection to academy.mailchimp.com timed out. (connect timeout=12)'))"
         }
       ],
       "reason": "Échec de connexion après plusieurs tentatives.",
@@ -6662,7 +6674,7 @@
       "source_file": "formations.json",
       "status": "redirect",
       "http_status": 200,
-      "final_url": "https://docs.cloud.google.com/data-studio?visit_id=639313240720993316-273640986&rd=1",
+      "final_url": "https://docs.cloud.google.com/data-studio?visit_id=639313252781378501-1289792990&rd=1",
       "attempts": [
         {
           "attempt": 1,
