@@ -1,0 +1,37 @@
+name: Collecte des actualités IA
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 7 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  collect-news:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Collecter les actualités RSS
+        run: python scripts/news_collector.py
+
+      - name: Enregistrer les nouvelles propositions
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news_pending.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: collect AI news candidates"
+            git push
+          else
+            echo "Aucune nouvelle actualité à enregistrer."
+          fi

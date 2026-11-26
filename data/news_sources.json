@@ -1,0 +1,44 @@
+[
+  {
+    "name": "OpenAI News",
+    "url": "https://openai.com/news/rss.xml",
+    "language": "en",
+    "type": "official",
+    "active": true
+  },
+  {
+    "name": "Google DeepMind Blog",
+    "url": "https://deepmind.google/blog/rss.xml",
+    "language": "en",
+    "type": "official",
+    "active": true
+  },
+  {
+    "name": "Hugging Face Blog",
+    "url": "https://huggingface.co/blog/feed.xml",
+    "language": "en",
+    "type": "official",
+    "active": true
+  },
+  {
+    "name": "Google Research Blog",
+    "url": "https://research.google/blog/rss/",
+    "language": "en",
+    "type": "official",
+    "active": true
+  },
+  {
+    "name": "arXiv — Artificial Intelligence",
+    "url": "https://rss.arxiv.org/rss/cs.AI",
+    "language": "en",
+    "type": "research",
+    "active": true
+  },
+  {
+    "name": "arXiv — Machine Learning",
+    "url": "https://rss.arxiv.org/rss/cs.LG",
+    "language": "en",
+    "type": "research",
+    "active": true
+  }
+]
