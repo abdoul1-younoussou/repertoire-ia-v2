@@ -1,5 +1,20 @@
 [
   {
+    "id": "c2bd7953104652e48b060cb836c5b0b220f5916987e34c7cb4215ee5c922c5b1",
+    "title": "Taking Trainium3 to the Track: Generating Videos with LTX-2.5",
+    "summary": "",
+    "source_name": "Hugging Face Blog",
+    "source_url": "https://huggingface.co/blog/feed.xml",
+    "article_url": "https://huggingface.co/blog/video-trainium3",
+    "language": "en",
+    "source_type": "official",
+    "published_at": "Fri, 27 Nov 2026 00:00:00 GMT",
+    "collected_at": "2026-11-27T17:22:00.380392+00:00",
+    "editorial_status": "a_examiner",
+    "review_status": "pending",
+    "review_note": ""
+  },
+  {
     "id": "393575ee7d83ff0a65d333d8be46ec5237c4c4f8ffd65a18f4b5764a81e08f2c",
     "title": "Genie 4: A new generation of world simulation",
     "summary": "Genie 4: our new world model unlocking unprecedented realism in real-time simulation.",
